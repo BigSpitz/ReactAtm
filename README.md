@@ -1,4 +1,4 @@
-# NeighbourhoodMapApp
+# ReactAtm
 
 A single page app designed to have an atm's withdraw money functionality using 1000$,500$ and 100\$ bills.
 
