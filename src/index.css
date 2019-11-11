@@ -1,13 +1,53 @@
 body {
+  overflow: auto;
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Oxygen", "Roboto", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+#root,
+.atm {
+  overflow: hidden;
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.atm .card {
+  width: 340px;
+  height: 545px;
+}
+.atm-modal {
+  font-size: 20px;
+}
+
+.atm-modal .fa-money-bill-wave {
+  color: green;
+}
+
+.atm-buttons .btn-light:focus,
+.withdraw-button:not(:disabled):not(.disabled):active:focus,
+.withdraw-button:focus {
+  box-shadow: none;
+}
+.btn-atm {
+  width: 65px;
+  height: 65px;
+  font-size: 21px !important;
+}
+
+.modal-dialog {
+  max-width: 465px;
+}
+
+.card {
+  border-radius: 1.25rem !important;
 }
